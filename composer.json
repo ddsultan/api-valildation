@@ -1,5 +1,12 @@
 {
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
     "require-dev": {
-        "behat/behat": "^3.8"
+        "behat/behat": "^3.8",
+        "guzzlehttp/guzzle": "^7.2",
+        "phpunit/phpunit": "^9.5"
     }
 }
